@@ -604,6 +604,7 @@ void CScraper::ScrapeName(int chair) {
 		return;
 	}
 	// Player name pXname
+	// TestTrish
 	s.Format("p%dname", chair);
 	EvaluateRegion(s, &result);
 	write_log(Preferences()->debug_scraper(), "[CScraper] p%dname, result %s\n", chair, result.GetString());
