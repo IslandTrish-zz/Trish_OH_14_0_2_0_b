@@ -362,7 +362,7 @@ void CPreferences::SetValue(int index_of_variable, LPCSTR value) {
 	/*write_log(debug_preferences(), "[CPreferences] %s = %s\n",
 	k_registry_keys_for_CStrings[index_of_variable], value);*/
 }
-//
+
 void CPreferences::SetValue(int index_of_variable, double value) {
 	ENT
 		//!!!!!AssertRange(index_of_variable, 0, k_prefs_last_numerical_value);
